@@ -344,7 +344,7 @@ public class FrmPrincipal extends JFrame implements WindowListener, ActionListen
 
 	public static void main(String[] args) {
 		try {
-			UIManager.setLookAndFeel("com.jtattoo.plaf.acryl.AcrylLookAndFeel");
+			UIManager.setLookAndFeel("com.formdev.flatlaf.FlatDarculaLaf");
 
 			FrmPrincipal jf = new FrmPrincipal("Sistema de gestión de biblioteca", 900, 600);
 			jf.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
